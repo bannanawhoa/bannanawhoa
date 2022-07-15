@@ -1,0 +1,112 @@
+table{
+    margin: 10px;
+}
+body{
+    background: black;
+    background: linear-gradient(rbga(0,0,0,0.5),rbga(0,0,0,0.5)),url();
+background-size: 1000px;
+background-position: center;
+min-height: 100vh;
+
+}
+header{
+    color: aliceblue;
+
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+
+table{
+    color: white;
+}
+.fl{
+     text-underline-position: below;
+    text-underline-offset: below;   
+    color: blue;
+text-underline-position: blue;
+    text-underline-offset: blue;
+}
+.ba{
+    margin-bottom:9999px ;
+    margin-right: 2000px;
+    width: 0px;
+}
+.bar{
+    margin-bottom:9999px ;
+    margin-right: 2000px;
+    margin-top: 0px;
+    margin-left: 9999px;
+    text-decoration-color: blue;
+}
+.fl:hover{
+    cursor: progress;
+}
+
+header img{
+    border-radius: 100px;
+    width: 100px;
+}
+header li{
+border: 10px;
+border-radius: 10px;
+color: white;
+background-color:black ;
+display: inline-block;
+margin: 10px;
+transition: 1s;
+}
+header ul{
+font-size: 20px;
+float:right;
+}
+.d:hover{
+text-decoration-color: blueviolet;
+}
+header{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    padding: 10px;
+    backdrop-filter:blur(10px);
+}
+main {
+    padding-top: 120px;
+}
+section:active{
+color: rgb(255, 255, 255);
+}
+section{
+    color: black;
+}
+.fj{
+    text-align: center;
+    padding: 10px;
+
+}
+.dog{
+    border: none;
+    margin: 10px;
+    padding: 15px;
+    background-color: coral;
+    border-radius: 10px;
+    display: none;
+    color: coral;
+    display: block;
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 10px;
+}
